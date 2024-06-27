@@ -1,0 +1,35 @@
+  .button {
+            width: 70px;
+            height: 50px;
+            margin: 5px;
+            border: none;
+            border-radius: 3px;
+            background-color: #f0f0f0;
+            font-size: 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #e0e0e0;
+        }
+        .button.operator {
+            background-color: #ddd;
+        }
+        .button.operator:hover {
+            background-color: #c0c0c0;
+        }
+        .button.equal {
+            background-color: #0084ff;
+            color: white;
+        }
+        .button.equal:hover {
+            background-color: #0066cc;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        .row:last-child {
+            margin-bottom: 0;
+        }
